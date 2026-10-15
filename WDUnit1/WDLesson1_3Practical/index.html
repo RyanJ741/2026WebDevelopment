@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- WD Lesson 1.3: How do we hyperlink resources? -->
+<!-- WD Lesson 1.4: How can we make HTML Elements into hyperlinks? -->
 <!-- Resources 
       https://www.w3schools.com/html/html_links.asp
       https://www.w3schools.com/tags/tag_a.asp
@@ -7,44 +7,36 @@
 
 <html>
   <head>
-    <title>Exploring Links</title>
+    <title>Exploring Links II</title>
   </head>
   <body>
-    <!-- Example of a link to a website 
-        <a href="http://www.baysidehighschool.org/"> w3schools </a> 
-    -->
-    <!-- Challenge 1: Add a heading for "Useful Links". -->
-    <h1> Useful Links </h1>
-    <!-- Challenge 2: Add a horizontal rule underneath. -->
-    <hr>
-    <!-- Challenge 3: Create a link to https://www.tutorialspoint.com/ -->
-     <a href="https://www.tutorialspoint.com/"> w3tutorial </a>
-    <!-- Challenge 4: Add a break to skip down to the next line -->
-    <br>
-    <!-- Challenge 5: Create a link to https://www.codecademy.com/ -->
-    <a href="https://codecademy.com/"> academy </a>
-    <!-- Challenge 6: Add a break to skip down to the next line -->
-    <br>
-    <!-- Challenge 7: Create a link to https://www.w3schools.com/ -->
-    <a href="https://www.w3schools.com/"> 
-      w3schools
-    </a>"
-    <!-- Challenge 8: Add a horizontal rule and break -->
-  <hr>
-    
- 
-    <!-- Example of link to an internal sources 
-  
-      <a href="resources/dukenukem.jpg"> Duke Nukem </a> <br>
-    -->
-    <!-- Challenge 9: Add a heading, "Links to Internal Resources in folders"-->
-     <h1> LinksInternalResourcesFolders</h1>
-    <!-- Challenge 10: Create links for the rest of the items located in resources -->
-<a href="resources/dukenukem.jpg">
-  Dukenukem
-</a>
-<br>
-    <!-- Challenge Bonus: Create links to your Lesson 1 and Lesson 2 Activities.  
-     Hint: Use the same link that you posted in Google Classroom for the submission of each Lesson Activity -->
+    <!-- Example of an HTML Element as a link to a website that opens in a new tab
+    <a href="https://www.w3schools.com/" target="_blank"> 
+      <img src="w3schools.jpg" height="100">
+    </a> 
+    --> 
+    <!-- Challenge 1: Add a heading with "Hyperlinking HTML Elements" followed by a horizontal rule-->
+    <h1> Hyperlinking HTML Elements </h1>
+    <!-- Challenge 2: Add the image for tutorialpoints that is stored locally and make it
+     a hyperlink to  https://www.tutorialspoint.com/ that will open in a new tab -->
+    <a href= "https://www.tutorialspoint.com/" target="_blank">
+      <img src="tutorialpoint.png" height="100>">
+    </a>
+    <!-- Challenge 3: Add a paragraph describing JavaScript and make the paragraph a hyperlink to 
+     https://javascript.info/ that will open in the SAME tab.-->
+    <a href="http://javascript.info/">
+    <p>JavaScript is a versatile, high-level programming language.<br>
+      primarily known for powering interactive and dynamic behavior on websites.<br>
+    Alongside HTML and CSS, it is a core technology of the internet.<br>
+     that allows developers to create features like animated graphics, updating maps, and interactive forms.<br>
+   </a>
+    <!-- Challenge 4: Add an <h2> for "Career & Technical Education" and make the heading a hyperlink to 
+      the cte.html file which is stored internally in the folder.  
+      Note: You can link to other web pages.  This is how websites are created! -->
+    <a href="cte.html">
+      <h2>Career & Techincal Education</h2>
+    </a> 
+    <!-- Challenge Bonus:  Complete all the challenges located in cte.html.  
+     Note: Click on cte.html to open the html file and start editing. -->
   </body>
 </html>
