@@ -13,7 +13,7 @@ img{
                 1) height to 10px
                 2) border to 0px, solid and white
                 3) background image to  linear-gradient(to right, blue, white)
-*/ 
+*/  
 #bannerSeparator{
   height:10px;
   border:0px;
@@ -21,10 +21,18 @@ img{
   background-image:linear-gradient(right, blue, white);
 
 /* Challenge 7: For the HTML element with an id of "logo_container" align the text in the center */
+#logo_container {
+    text-align: center;
+}
 
 /* Challenge 8: Change the height of all images with a class of "logo" to 200px*/
-
+img.logo {
+  height: 200px;
+}
 /* Challenge 9: Change the padding to 40px for all divs */
+  div {
+  padding: 40px;
+}
 
 /* Challenge 10: For the HTML element with an id of "main_container" change 
                 1) the size of the font to 24pt, 
@@ -32,4 +40,10 @@ img{
                 3) color of the background to rgb(0,0,255)  
                 4) color of the text to white for the  white
 */
+#main-container {
+  font-size: 24pt;
+  font-family: "Arial", sans-serif;
+  background-color: rgb(0, 0, 255);
+  color: white;
+}
 
