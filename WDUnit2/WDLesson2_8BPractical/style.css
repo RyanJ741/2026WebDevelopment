@@ -1,2 +1,90 @@
 /* Challenge 2: Use w3SchoolsMockUp.png to help you write the necessary CSS rules.
    Hint: Remember all the fundamental CSS rules when working with flexboxes */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Top Header */
+.header {
+  height: 55px;
+  background-color: white;
+  padding: 15px 20px;
+}
+
+.logo {
+  float: left;
+  color: #003366;
+  font-size: 22px;
+}
+
+.tagline {
+  float: right;
+  color: black;
+  font-size: 13px;
+  margin-right: 120px;
+  margin-top: 5px;
+}
+
+/* Green Navigation Bar */
+.navbar {
+  clear: both;
+  background-color: green;
+  padding: 14px 0;
+  text-align: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 55px;
+}
+
+/* Left Sidebar */
+.sidebar {
+  float: left;
+  width: 150px;
+  height: 500px;
+  background-color: white;
+  border-right: 1px solid lightgray;
+  padding-top: 10px;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 10px 15px;
+}
+
+/* Main Content */
+.content {
+  height: 500px;
+  text-align: center;
+}
+
+.content h1 {
+  display: inline-block;
+  font-size: 40px;
+  margin-top: 200px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+/* Bottom Footer */
+.footer {
+  clear: both;
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.footer p {
+  margin: 0;
+}
